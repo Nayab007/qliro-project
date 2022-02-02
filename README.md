@@ -14,6 +14,6 @@ To work on this project I did my research on google, stack overflow, medium, and
  I also ran the Unit test on this app. Which was passed.For testing I have used React testing library. Here is the picture of the testing Results.
 
 
-=====
+
 ![Qliro-testing](https://user-images.githubusercontent.com/55736152/152245549-192f6980-1ada-413d-8b22-f7ec4e107ca1.jpg)
 >>>>>>> b00cf7b82a3ce1a99b938c704dcf84dc2efcc44b
