@@ -15,9 +15,7 @@ function TablePaginationActions(props) {
   const theme = useTheme()
   const { count, page, rowsPerPage, onChangePage } = props
 
-  const handleFirstPageButtonClick = (event) => {
-    onChangePage(event, 0)
-  }
+ 
 
   const handleBackButtonClick = (event) => {
     onChangePage(event, page - 1)
