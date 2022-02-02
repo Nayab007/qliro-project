@@ -1,0 +1,206 @@
+@font-face {
+  font-family: MetroPolis-Light;
+  src: url("./assets/fonts/Webfonts/WOFF/Metropolis-Light.woff");
+}
+@font-face {
+  font-family: MetroPolis;
+  src: url("./assets/fonts/Webfonts/WOFF/Metropolis-Regular.woff");
+}
+.App {
+  background-color: #f9f9f9;
+  font-family: MetroPolis;
+}
+
+
+.header {
+  padding: 28px 67px;
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+  & p {
+    font-family: MetroPolis;
+    color: #222222;
+    font-weight: 600;
+  }
+}
+//contact
+.orders_contact {
+  padding: 40px 122px 65px 118px;
+  font-family: MetroPolis;
+  border-bottom: 1px solid #ececec;
+  &_title {
+    font-weight: 600;
+    &_icon {
+      margin-right: 10px;
+    }
+  }
+  &_subtitle {
+    color: #5f5f5f;
+  }
+}
+// table
+.orders_table {
+  padding: 65px 68px;
+  .rotate_verticle {
+    text-align: center;
+    transform: rotate(270deg);
+
+    width: 72px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: relative;
+    left: -33px;
+    &.grey {
+      background: #ececec;
+      color: black;
+    }
+    &.orange {
+      background: #f26401;
+      color: white;
+    }
+    &.black {
+      background: black;
+      color: white;
+    }
+  }
+  &_text_number {
+    color: #0a8f74;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-left: 10px;
+    }
+  }
+  &_payment,
+  &_payment_status {
+    justify-content: flex-start;
+  }
+  &_payment {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    &_type {
+      width: 40px;
+
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 10px;
+      border-radius: 5px;
+      border: 1px solid #ececec;
+      img,
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &_payment_status {
+    display: flex;
+    align-items: center;
+    span {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 8px;
+      &.green {
+        background-color: #0a8f74;
+      }
+      &.red {
+        background-color: #fe1b1b;
+      }
+      &.orange {
+        background-color: #f26401;
+      }
+    }
+  }
+  &_flag {
+    display: flex;
+    align-items: center;
+    span {
+      margin-right: 10px;
+    }
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    padding: 0 8px;
+  }
+  & .MuiTableRow-root {
+    height: 80px;
+    margin: 10px;
+    background: white;
+    border-bottom: 0px solid rgba(224, 224, 224, 1);
+  }
+  & .MuiTableCell-root {
+    font-family: MetroPolis;
+    border-bottom: 0px solid;
+    color: #5f5f5f;
+    font-weight: 600;
+  }
+  &_row {
+    box-shadow: 4px 4px 16px 0px #00000029;
+  }
+  & .MuiTableCell-head {
+    background-color: #f9f9f9;
+    color: #999999;
+    border-collapse: initial;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  & .MuiTableRow-footer {
+    background: #f9f9f9;
+  }
+  &_type {
+    width: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  &_name {
+    font-family: MetroPolis;
+    font-size: 20px ;
+    color: #222222 ;
+    font-weight: 600;
+  }
+  &_help {
+    display: flex;
+    align-items: center;
+
+    &_icon {
+      color: #393939;
+      margin-right: 8px;
+    }
+    &_text {
+      color: #0a8f74;
+    }
+  }
+  &_amount {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #222222;
+    font-weight: 600;
+  }
+  & .MuiTablePagination-caption {
+    display: none;
+  }
+  & .icon_button,
+  & .icon_button:hover {
+    background-color: transparent;
+    min-width: 40px;
+    border-radius: 50%;
+  }
+  & .icon_button_active,
+  & .icon_button_active:hover {
+    margin: 0 10px;
+    background-color: #0a8f74;
+    color: white;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+  }
+}
