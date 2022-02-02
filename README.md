@@ -1,4 +1,4 @@
-<<<<<<<
+<<<<<
 Live Link to deployed page
 
 https://qliro-project.netlify.app/
