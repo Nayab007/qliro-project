@@ -65,6 +65,20 @@
       color: white;
     }
   }
+  .rotate_horizontal{
+    text-align: center;
+    transform: rotate(90deg);  
+    width: 14px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    position: relative;
+    left: -22px;
+    bottom: -18px;
+
+  }
   &_text_number {
     color: #0a8f74;
     display: flex;
@@ -136,6 +150,11 @@
     background: white;
     border-bottom: 0px solid rgba(224, 224, 224, 1);
   }
+  .MuiTableRow-root:hover {
+    border:4px solid #69c959;
+    box-shadow: -1px 2px 34px -13px #7B31D9;;
+    transform: scale(1.02);
+  }
   & .MuiTableCell-root {
     font-family: MetroPolis;
     border-bottom: 0px solid;
@@ -203,4 +222,5 @@
     min-width: 40px;
     border-radius: 50%;
   }
+  
 }
