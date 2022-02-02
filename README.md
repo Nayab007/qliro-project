@@ -1,6 +1,8 @@
 <<<<<<< HEAD
 Live Link to deployed page
 
+https://qliro-project.netlify.app/
+
 
 
 For this Qliro Project, I have to implement that Figma design that I have received. I did my best to implement that design. If I would be working on this project full time I would make some design changes to make the page look nicer. 
